@@ -39,7 +39,7 @@ function App() {
 
   return (
     <AllProvider>
-      <Router basename="FashionEcommerce">
+      <Router>
         <Routes>
           <Route path="/" element={<Home cart={cart} total={total} filter={filter} addToCart={addToCart}/>} />
           <Route path="/product/:id" element={<Product setCart={setCart} cart={cart} total={total} filter={filter} addToCart={addToCart}/>} />
