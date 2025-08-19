@@ -79,7 +79,7 @@ export default function Nav({ total, cart }) {
               About Us
             </NavLink>
           </li>
-          <a href="/FashionEcommerce/cart" className="navCart_c">
+          <a href="/cart" className="navCart_c">
             <span className="navCart flex justify-center items-center gap-2">
               <span style={{ fontSize: "1.2rem", position: "relative", display:"inline-block"}}>
                 <CgShoppingCart />
