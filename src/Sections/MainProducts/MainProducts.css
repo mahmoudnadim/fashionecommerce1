@@ -1,0 +1,13 @@
+.mainProductsList{
+    gap: 1rem;
+}
+.showSelectedFilter{
+    font-size: .9rem;
+    background: #f5f5f5;
+    border: 1px solid #bebebe;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+}

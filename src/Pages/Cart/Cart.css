@@ -1,0 +1,109 @@
+.cartContainer{
+    display: flex;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem ;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: 0;
+}
+.couponReset_c{
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.couponReset_c .resetCart{
+    width: 100%;
+    padding: .5rem;
+}
+.paymentContainer{
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 4rem 3rem;
+}
+.paymentForm{
+    border: 1px solid #ccc;
+    padding: 5rem 3rem;
+    border-radius: 1rem;
+}
+.paymentForm input{
+    border: 1px solid #ccc;
+    padding: .5rem 0.8rem;
+    border-radius: .5rem;
+}
+.paymentForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.paymentForm .formGroup{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 2rem);
+}
+.submitBtn{
+    padding: .8rem 5rem;
+    width: fit-content;
+    border-radius: .5rem;
+}
+.paymentForm .formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.paymentTitle{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    width: fit-content;
+    font-weight: 500;
+}
+.cartProductName{
+    font-size: 1rem;
+}
+.cartProductPrice{
+    font-size: .9rem;
+    color: #333;
+}
+.orderSummaryContainer{
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 4rem 3rem;
+    height: fit-content;
+}
+.orderSummaryTitle{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}
+.orderDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.orderDetailsItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.orderDetailsItem img{
+    width: 3.5rem;
+    max-width: 3.5rem;
+}
+.cartTotalContainer{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+.couponCodeLink{
+    color: var(--primary-color);
+    border-bottom: 1px solid transparent;
+    transition: all .2s ease-in-out;
+}
+.couponCodeLink:hover{
+    border-bottom: 1px solid var(--primary-color);
+}
+.reserCart{
+    padding: .8rem 1.5rem;
+}

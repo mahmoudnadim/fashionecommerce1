@@ -1,0 +1,71 @@
+.navContainer{
+    width: 100%;
+    background: #fff;
+    padding: 1.2rem 8rem;
+    margin-bottom: 2rem;
+}
+.isFixed{
+    position: fixed;
+    top: 0;
+}
+.navLogo{
+width: 12rem;
+    cursor: pointer;
+}
+.navLink{
+    font-size: 1.1rem;
+}
+.navLinks a:hover{
+    color: var(--primary-color);
+}
+.navCart{
+    padding: .5rem .7rem;
+    border-radius: 2rem;
+    color: var(--primary-color);
+}
+.navCart svg{
+    font-size: 1.7rem;
+}
+.cartCount{
+    font-size: .7rem;
+    background: var(--primary-color);
+    padding: .05rem .30rem;
+    border-radius: 50%;
+}
+.navPhone{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    border-radius: 0 1rem 1rem 0;
+    width: 50%;
+    background: #dcdcdc;
+    padding: 1rem 4rem;
+    z-index: 90;
+    transition: all .5s ease-in-out !important;
+}
+.navPhoneList{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.navPhoneListItem a{
+    font-size: 2rem;
+}
+.closeNavPhone{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.openNavPhone svg{
+    font-size: 2.2rem;
+}
+.navPhone svg{
+    font-size: 2rem;
+}
+.openNavPhone{
+    display: none;
+    padding: .8rem;
+    background: #dcdcdc;
+    border-radius: .5rem;
+}
